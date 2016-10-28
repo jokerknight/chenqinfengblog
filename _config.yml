@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://chenqinfeng.com
+url: http://www.chenqinfeng.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -23,6 +23,7 @@ baidu_analytics: 9f6a7eb200643de2d86ec301b2f6dea3
 # Social links
 social:
   github: https://github.com/jokerknight
+  csdn: http://blog.csdn.net/knighttools
   weibo: http://weibo.com/u/2667233554
   douban: http://www.douban.com/people/chenqinfeng/
   instagram: https://www.instagram.com/takeknight/
@@ -80,6 +81,8 @@ avatar: /images/default_avatar.jpg
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     - type: git
-      repo: https://github.com/jokerknight/jokerknight.github.io.git,master
+      repo: https://github.com/jokerknight/jokerknight.github.io.git
+      branch: master
     - type: git
-      repo: https://gitcafe.com/chenqinfeng/chenqinfeng.git,gitcafe-pages
+      repo: https://git.coding.net/chenqinfeng/chenqinfeng.git
+      branch: gitcafe-pages
