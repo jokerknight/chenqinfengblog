@@ -19,7 +19,7 @@ permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Analytics
-baidu_analytics: 9f6a7eb200643de2d86ec301b2f6dea3
+cnzz_siteid: 1254619007
 # Social links
 social:
   github: https://github.com/jokerknight
