@@ -5,7 +5,3 @@ db.json
 node_modules/
 public/
 .deploy*/
-package_REMOTE_6000.json
-package_LOCAL_6000.json
-package_BASE_6000.json
-package_BACKUP_6000.json
