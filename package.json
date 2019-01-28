@@ -16,7 +16,7 @@
     "hexo-generator-sitemap": "^1.0.1",
     "hexo-generator-tag": "^0.1.2",
     "hexo-permalink-pinyin": "^1.0.0",
-    "hexo-prism-plugin": "^2.3.0",
+    "hexo-prism-plugin": "file:node_modules/hexo-prism-plugin",
     "hexo-renderer-ejs": "^0.1.0",
     "hexo-renderer-marked": "^0.2.6",
     "hexo-renderer-stylus": "^0.3.0",
