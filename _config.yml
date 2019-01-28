@@ -1,0 +1,105 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: ChenQinfeng
+subtitle:
+description:
+author: ChenQinfeng
+email: androidchenqinfeng@gmail.com
+language: zh-CN
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://www.chenqinfeng.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# Analytics
+#baidu_analytics: 9f6a7eb200643de2d86ec301b2f6dea3
+cnzz_siteid: 1254619007
+
+# Social links
+social:
+  github: https://github.com/jokerknight
+  csdn: http://blog.csdn.net/knighttools
+  weibo: http://weibo.com/u/2667233554
+  douban: http://www.douban.com/people/chenqinfeng/
+  instagram: https://www.instagram.com/takeknight/
+  google+: https://plus.google.com/u/0/105448577659348421554
+  # 等等
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace:
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
+
+# Seach Plugin
+search:
+  path: search.xml
+  field: post
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 6
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: hexo-theme-matery
+avatar: /images/default_avatar.jpg
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+    - type: git
+      repo: https://github.com/jokerknight/jokerknight.github.io.git
+      branch: master
+    - type: git
+      repo: https://git.coding.net/chenqinfeng/chenqinfeng.git
+      branch: gitcafe-pages
+
