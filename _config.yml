@@ -102,7 +102,7 @@ deploy:
     - type: git
       repo: https://github.com/jokerknight/jokerknight.github.io.git
       branch: master
-    - type: git
-      repo: https://git.coding.net/chenqinfeng/chenqinfeng.git
-      branch: master
+#    - type: git
+#      repo: https://e.coding.net/chenqinfeng-01/chenqinfeng.git
+#      branch: master
 
